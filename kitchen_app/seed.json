@@ -1,0 +1,1111 @@
+{
+  "schema": 1,
+  "settings": {
+    "name": "钟意媛媛",
+    "announcement": "暂无",
+    "members": [
+      "我",
+      "另一半"
+    ],
+    "level": 6
+  },
+  "categories": [
+    {
+      "id": "必看必看",
+      "name": "必看必看",
+      "referenceCount": 3
+    },
+    {
+      "id": "小情绪",
+      "name": "小情绪",
+      "referenceCount": 11
+    },
+    {
+      "id": "调情",
+      "name": "调情",
+      "referenceCount": 12
+    },
+    {
+      "id": "饮食",
+      "name": "饮食",
+      "referenceCount": 14
+    },
+    {
+      "id": "漂亮饭",
+      "name": "漂亮饭",
+      "referenceCount": 10
+    },
+    {
+      "id": "奶茶",
+      "name": "奶茶",
+      "referenceCount": null
+    },
+    {
+      "id": "水果",
+      "name": "水果",
+      "referenceCount": 10
+    },
+    {
+      "id": "甜点",
+      "name": "甜点",
+      "referenceCount": null
+    },
+    {
+      "id": "饮品",
+      "name": "饮品",
+      "referenceCount": 6
+    },
+    {
+      "id": "零食",
+      "name": "零食",
+      "referenceCount": 5
+    },
+    {
+      "id": "申请",
+      "name": "申请",
+      "referenceCount": null
+    },
+    {
+      "id": "游戏",
+      "name": "游戏",
+      "referenceCount": 4
+    },
+    {
+      "id": "娱乐项目",
+      "name": "娱乐项目",
+      "referenceCount": 4
+    },
+    {
+      "id": "小狗快递",
+      "name": "小狗快递",
+      "referenceCount": 8
+    }
+  ],
+  "menu": [
+    {
+      "id": "item-001",
+      "category": "必看必看",
+      "name": "干饭",
+      "description": "",
+      "image": "/assets/item-001.jpg",
+      "source": {
+        "page": 1,
+        "crop": [
+          258,
+          663,
+          435,
+          840
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-002",
+      "category": "必看必看",
+      "name": "重要通知",
+      "description": "",
+      "image": "/assets/item-002.jpg",
+      "source": {
+        "page": 1,
+        "crop": [
+          258,
+          875,
+          435,
+          1052
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-003",
+      "category": "必看必看",
+      "name": "老大 请点餐",
+      "description": "",
+      "image": "/assets/item-003.jpg",
+      "source": {
+        "page": 1,
+        "crop": [
+          258,
+          1085,
+          435,
+          1262
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-004",
+      "category": "小情绪",
+      "name": "我真的生气了快来哄我",
+      "description": "不许隔夜气",
+      "image": "/assets/item-004.jpg",
+      "source": {
+        "page": 2,
+        "crop": [
+          258,
+          305,
+          435,
+          482
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-005",
+      "category": "小情绪",
+      "name": "哄我哄我",
+      "description": "",
+      "image": "/assets/item-005.jpg",
+      "source": {
+        "page": 2,
+        "crop": [
+          258,
+          558,
+          435,
+          735
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-006",
+      "category": "小情绪",
+      "name": "老大我错了 别生气了",
+      "description": "错了，下次不会了",
+      "image": "/assets/item-006.jpg",
+      "source": {
+        "page": 2,
+        "crop": [
+          258,
+          768,
+          435,
+          945
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-007",
+      "category": "小情绪",
+      "name": "不开心 哄哄我",
+      "description": "遇到不开心的事就告诉我",
+      "image": "/assets/item-007.jpg",
+      "source": {
+        "page": 2,
+        "crop": [
+          258,
+          1021,
+          435,
+          1198
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-008",
+      "category": "小情绪",
+      "name": "我吃醋了吗吗",
+      "description": "包哄好",
+      "image": "/assets/item-008.jpg",
+      "source": {
+        "page": 2,
+        "crop": [
+          258,
+          1275,
+          435,
+          1452
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-009",
+      "category": "小情绪",
+      "name": "骄傲",
+      "description": "得意洋洋略略略",
+      "image": "/assets/item-009.jpg",
+      "source": {
+        "page": 2,
+        "crop": [
+          258,
+          1528,
+          435,
+          1705
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-010",
+      "category": "小情绪",
+      "name": "想你啦",
+      "description": "想你想你想你",
+      "image": "/assets/item-010.jpg",
+      "source": {
+        "page": 3,
+        "crop": [
+          258,
+          358,
+          435,
+          535
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-011",
+      "category": "小情绪",
+      "name": "自豪",
+      "description": "夸爆了",
+      "image": "/assets/item-011.jpg",
+      "source": {
+        "page": 3,
+        "crop": [
+          258,
+          610,
+          435,
+          787
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-012",
+      "category": "小情绪",
+      "name": "调皮",
+      "description": "略略略",
+      "image": "/assets/item-012.jpg",
+      "source": {
+        "page": 3,
+        "crop": [
+          258,
+          863,
+          435,
+          1040
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-013",
+      "category": "小情绪",
+      "name": "超级开心",
+      "description": "嘻嘻开心到起飞",
+      "image": "/assets/item-013.jpg",
+      "source": {
+        "page": 3,
+        "crop": [
+          258,
+          1117,
+          435,
+          1294
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-014",
+      "category": "小情绪",
+      "name": "兴奋",
+      "description": "激动的心",
+      "image": "/assets/item-014.jpg",
+      "source": {
+        "page": 3,
+        "crop": [
+          258,
+          1369,
+          435,
+          1546
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-015",
+      "category": "调情",
+      "name": "跟你打语音电话",
+      "description": "一小时起步",
+      "image": "/assets/item-015.jpg",
+      "source": {
+        "page": 4,
+        "crop": [
+          258,
+          361,
+          435,
+          538
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-016",
+      "category": "调情",
+      "name": "申请床位共享",
+      "description": "睡觉",
+      "image": "/assets/item-016.jpg",
+      "source": {
+        "page": 4,
+        "crop": [
+          258,
+          614,
+          435,
+          791
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-017",
+      "category": "调情",
+      "name": "跟我一起打游戏",
+      "description": "甜蜜双排滴滴",
+      "image": "/assets/item-017.jpg",
+      "source": {
+        "page": 4,
+        "crop": [
+          258,
+          868,
+          435,
+          1045
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-018",
+      "category": "调情",
+      "name": "跟你打视频电话",
+      "description": "一小时起步",
+      "image": "/assets/item-018.jpg",
+      "source": {
+        "page": 4,
+        "crop": [
+          258,
+          1120,
+          435,
+          1297
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-019",
+      "category": "调情",
+      "name": "贴贴",
+      "description": "贴紧紧的",
+      "image": "/assets/item-019.jpg",
+      "source": {
+        "page": 4,
+        "crop": [
+          258,
+          1373,
+          435,
+          1550
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-020",
+      "category": "调情",
+      "name": "抱抱",
+      "description": "10s以上超大抱抱",
+      "image": "/assets/item-020.jpg",
+      "source": {
+        "page": 4,
+        "crop": [
+          258,
+          1624,
+          435,
+          1801
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-021",
+      "category": "调情",
+      "name": "求求我",
+      "description": "害羞",
+      "image": "/assets/item-021.jpg",
+      "source": {
+        "page": 5,
+        "crop": [
+          258,
+          462,
+          435,
+          639
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-022",
+      "category": "调情",
+      "name": "哄睡",
+      "description": "视频电话哄睡，睡前陪聊，睡前小故事",
+      "image": "/assets/item-022.jpg",
+      "source": {
+        "page": 5,
+        "crop": [
+          258,
+          714,
+          435,
+          891
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-023",
+      "category": "调情",
+      "name": "亲亲",
+      "description": "亲亲我",
+      "image": "/assets/item-023.jpg",
+      "source": {
+        "page": 5,
+        "crop": [
+          258,
+          968,
+          435,
+          1145
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-024",
+      "category": "调情",
+      "name": "捏捏我",
+      "description": "委屈巴巴",
+      "image": "/assets/item-024.jpg",
+      "source": {
+        "page": 5,
+        "crop": [
+          258,
+          1221,
+          435,
+          1398
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-025",
+      "category": "饮食",
+      "name": "想吃螺蛳粉",
+      "description": "",
+      "image": "/assets/item-025.jpg",
+      "source": {
+        "page": 5,
+        "crop": [
+          258,
+          1546,
+          435,
+          1723
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-026",
+      "category": "饮食",
+      "name": "想吃汉堡",
+      "description": "",
+      "image": "/assets/item-026.jpg",
+      "source": {
+        "page": 6,
+        "crop": [
+          258,
+          424,
+          435,
+          601
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-027",
+      "category": "饮食",
+      "name": "想吃小龙虾",
+      "description": "",
+      "image": "/assets/item-027.jpg",
+      "source": {
+        "page": 6,
+        "crop": [
+          258,
+          635,
+          435,
+          812
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-028",
+      "category": "饮食",
+      "name": "想吃薯条",
+      "description": "",
+      "image": "/assets/item-028.jpg",
+      "source": {
+        "page": 6,
+        "crop": [
+          258,
+          846,
+          435,
+          1023
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-029",
+      "category": "饮食",
+      "name": "想吃麻辣烫",
+      "description": "",
+      "image": "/assets/item-029.jpg",
+      "source": {
+        "page": 6,
+        "crop": [
+          258,
+          1058,
+          435,
+          1235
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-030",
+      "category": "饮食",
+      "name": "想吃热狗",
+      "description": "",
+      "image": "/assets/item-030.jpg",
+      "source": {
+        "page": 6,
+        "crop": [
+          258,
+          1272,
+          435,
+          1449
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-031",
+      "category": "饮食",
+      "name": "想吃麦当劳",
+      "description": "",
+      "image": "/assets/item-031.jpg",
+      "source": {
+        "page": 6,
+        "crop": [
+          258,
+          1480,
+          435,
+          1657
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-032",
+      "category": "漂亮饭",
+      "name": "想吃烧烤",
+      "description": "",
+      "image": "/assets/item-032.jpg",
+      "source": {
+        "page": 7,
+        "crop": [
+          258,
+          433,
+          435,
+          610
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-033",
+      "category": "漂亮饭",
+      "name": "想吃铁锅炖",
+      "description": "",
+      "image": "/assets/item-033.jpg",
+      "source": {
+        "page": 7,
+        "crop": [
+          258,
+          645,
+          435,
+          822
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-034",
+      "category": "漂亮饭",
+      "name": "想吃小火锅",
+      "description": "",
+      "image": "/assets/item-034.jpg",
+      "source": {
+        "page": 7,
+        "crop": [
+          258,
+          857,
+          435,
+          1034
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-035",
+      "category": "漂亮饭",
+      "name": "想吃冒菜",
+      "description": "",
+      "image": "/assets/item-035.jpg",
+      "source": {
+        "page": 7,
+        "crop": [
+          258,
+          1064,
+          435,
+          1241
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-036",
+      "category": "漂亮饭",
+      "name": "想吃炒菜",
+      "description": "",
+      "image": "/assets/item-036.jpg",
+      "source": {
+        "page": 7,
+        "crop": [
+          258,
+          1278,
+          435,
+          1455
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-037",
+      "category": "漂亮饭",
+      "name": "想吃烤肉",
+      "description": "",
+      "image": "/assets/item-037.jpg",
+      "source": {
+        "page": 7,
+        "crop": [
+          258,
+          1491,
+          435,
+          1668
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-038",
+      "category": "水果",
+      "name": "想吃小西瓜",
+      "description": "",
+      "image": "/assets/item-038.jpg",
+      "source": {
+        "page": 8,
+        "crop": [
+          258,
+          308,
+          435,
+          485
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-039",
+      "category": "水果",
+      "name": "想吃哈密瓜",
+      "description": "",
+      "image": "/assets/item-039.jpg",
+      "source": {
+        "page": 8,
+        "crop": [
+          258,
+          520,
+          435,
+          697
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-040",
+      "category": "水果",
+      "name": "想吃小蓝莓",
+      "description": "",
+      "image": "/assets/item-040.jpg",
+      "source": {
+        "page": 8,
+        "crop": [
+          258,
+          731,
+          435,
+          908
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-041",
+      "category": "水果",
+      "name": "想吃火龙果",
+      "description": "",
+      "image": "/assets/item-041.jpg",
+      "source": {
+        "page": 8,
+        "crop": [
+          258,
+          942,
+          435,
+          1119
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-042",
+      "category": "水果",
+      "name": "想吃小草莓",
+      "description": "",
+      "image": "/assets/item-042.jpg",
+      "source": {
+        "page": 8,
+        "crop": [
+          258,
+          1154,
+          435,
+          1331
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-043",
+      "category": "水果",
+      "name": "想吃猕猴桃",
+      "description": "",
+      "image": "/assets/item-043.jpg",
+      "source": {
+        "page": 8,
+        "crop": [
+          258,
+          1362,
+          435,
+          1539
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-044",
+      "category": "水果",
+      "name": "想吃苹果",
+      "description": "",
+      "image": "/assets/item-044.jpg",
+      "source": {
+        "page": 8,
+        "crop": [
+          258,
+          1542,
+          435,
+          1719
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-045",
+      "category": "饮品",
+      "name": "想喝小可乐",
+      "description": "",
+      "image": "/assets/item-045.jpg",
+      "source": {
+        "page": 9,
+        "crop": [
+          258,
+          347,
+          435,
+          524
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-046",
+      "category": "饮品",
+      "name": "想喝AD钙",
+      "description": "",
+      "image": "/assets/item-046.jpg",
+      "source": {
+        "page": 9,
+        "crop": [
+          258,
+          559,
+          435,
+          736
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-047",
+      "category": "饮品",
+      "name": "想喝小雪碧",
+      "description": "",
+      "image": "/assets/item-047.jpg",
+      "source": {
+        "page": 9,
+        "crop": [
+          258,
+          771,
+          435,
+          948
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-048",
+      "category": "饮品",
+      "name": "想喝矿泉水",
+      "description": "",
+      "image": "/assets/item-048.jpg",
+      "source": {
+        "page": 9,
+        "crop": [
+          258,
+          981,
+          435,
+          1158
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-049",
+      "category": "饮品",
+      "name": "想喝小旺仔",
+      "description": "",
+      "image": "/assets/item-049.jpg",
+      "source": {
+        "page": 9,
+        "crop": [
+          258,
+          1191,
+          435,
+          1368
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-050",
+      "category": "零食",
+      "name": "想吃小毛肚",
+      "description": "",
+      "image": "/assets/item-050.jpg",
+      "source": {
+        "page": 9,
+        "crop": [
+          258,
+          1474,
+          435,
+          1651
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-051",
+      "category": "游戏",
+      "name": "看电影",
+      "description": "好看好看",
+      "image": "/assets/item-051.jpg",
+      "source": {
+        "page": 10,
+        "crop": [
+          258,
+          345,
+          435,
+          522
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-052",
+      "category": "游戏",
+      "name": "打羽毛球",
+      "description": "单打",
+      "image": "/assets/item-052.jpg",
+      "source": {
+        "page": 10,
+        "crop": [
+          258,
+          599,
+          435,
+          776
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-053",
+      "category": "游戏",
+      "name": "王者荣耀",
+      "description": "欢迎来到王者峡谷",
+      "image": "/assets/item-053.jpg",
+      "source": {
+        "page": 10,
+        "crop": [
+          258,
+          853,
+          435,
+          1030
+        ]
+      },
+      "rating": 3
+    },
+    {
+      "id": "item-054",
+      "category": "娱乐项目",
+      "name": "打台球",
+      "description": "砰砰砰！",
+      "image": "/assets/item-054.jpg",
+      "source": {
+        "page": 10,
+        "crop": [
+          258,
+          1226,
+          435,
+          1403
+        ]
+      },
+      "rating": 5
+    },
+    {
+      "id": "item-055",
+      "category": "娱乐项目",
+      "name": "抓娃娃",
+      "description": "嘿咻",
+      "image": "/assets/item-055.jpg",
+      "source": {
+        "page": 10,
+        "crop": [
+          258,
+          1529,
+          435,
+          1706
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-056",
+      "category": "小狗快递",
+      "name": "圆通快递",
+      "description": "三区服务区 妈妈驿站",
+      "image": "/assets/item-056.jpg",
+      "source": {
+        "page": 11,
+        "crop": [
+          258,
+          314,
+          435,
+          491
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-057",
+      "category": "小狗快递",
+      "name": "申通快递",
+      "description": "一区服务区",
+      "image": "/assets/item-057.jpg",
+      "source": {
+        "page": 11,
+        "crop": [
+          258,
+          568,
+          435,
+          745
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-058",
+      "category": "小狗快递",
+      "name": "顺丰快递",
+      "description": "二区服务区",
+      "image": "/assets/item-058.jpg",
+      "source": {
+        "page": 11,
+        "crop": [
+          258,
+          820,
+          435,
+          997
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-059",
+      "category": "小狗快递",
+      "name": "韵达快递",
+      "description": "三区服务区 妈妈驿站",
+      "image": "/assets/item-059.jpg",
+      "source": {
+        "page": 11,
+        "crop": [
+          258,
+          1074,
+          435,
+          1251
+        ]
+      },
+      "rating": null
+    },
+    {
+      "id": "item-060",
+      "category": "小狗快递",
+      "name": "京东快递",
+      "description": "一区服务区",
+      "image": "/assets/item-060.jpg",
+      "source": {
+        "page": 11,
+        "crop": [
+          258,
+          1327,
+          435,
+          1504
+        ]
+      },
+      "rating": null
+    }
+  ],
+  "source": {
+    "url": "https://www.douyin.com/note/7626719851147012474",
+    "screens": 11,
+    "note": "仅收录参考图中能读清的条目，缺失项可自行添加；订单等未展示页面为本项目实现。"
+  }
+}

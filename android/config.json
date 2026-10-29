@@ -1,0 +1,8 @@
+{
+  "applicationId": "com.example.lovekitchen",
+  "baseUrl": "https://kitchen.example.com/",
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "minSdk": 24,
+  "targetSdk": 35
+}

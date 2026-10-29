@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="情侣趣味厨房，属于两个人的点单日常。">
+  <title>情侣趣味厨房 · 独家御膳房</title>
+  <link rel="icon" href="/assets/item-001.jpg">
+  <link rel="stylesheet" href="/styles.css?v=d18f0c6ab0f3">
+  <link rel="stylesheet" href="/responsive.css?v=8e5c4f2881a8">
+  <script src="/auth.js?v=b10f9f192fc8" defer></script>
+  <script src="/app.js?v=8c698a5766fd" defer></script>
+</head>
+<body>
+<svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+ <symbol id="i-chef" viewBox="0 0 24 24"><path d="M7 15c-6 0-6-8 0-8 1-5 9-5 10 0 6 0 6 8 0 8v5H7Z"/><path d="M7 17h10"/></symbol>
+ <symbol id="i-order" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="4"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+ <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m16 8-2.5 5.5L8 16l2.5-5.5Z"/></symbol>
+ <symbol id="i-me" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 7v4M15 7v4M8 15q4 5 8 0"/></symbol>
+ <symbol id="i-cart" viewBox="0 0 24 24"><path d="M2 3h3l2 13h12l2-10H6M9 20h.01M18 20h.01"/></symbol>
+ <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></symbol>
+ <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+ <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+ <symbol id="i-back" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+ <symbol id="i-qr" viewBox="0 0 24 24"><path d="M3 3h7v7H3ZM14 3h7v7h-7ZM3 14h7v7H3ZM14 14h3v3h-3ZM19 14h2v3M14 19v2h3M19 19h2v2"/></symbol>
+ <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21 3 12C-3 4 8-1 12 6c4-7 15-2 9 6Z"/></symbol>
+ <symbol id="i-dice" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 8h.01M16 8h.01M12 12h.01M8 16h.01M16 16h.01"/></symbol>
+ <symbol id="i-signal" viewBox="0 0 24 24"><path d="M3 18v-4M9 18V10M15 18V6M21 18V3"/></symbol>
+</svg>
+<section id="authStage" class="auth-stage" aria-label="账号登录"><div class="auth-card">正在打开厨房…</div></section>
+<main class="workspace" id="app" aria-label="情侣趣味厨房" hidden>
+ <header class="workspace-header"><div class="workspace-brand"><span class="brand-mark">♡</span><div><strong>只对你营业</strong><small>OUR TWO-PERSON KITCHEN</small></div></div><div class="account-tools"><span id="accountName" class="account-chip">尚未登录</span><button id="logoutButton">退出登录</button></div></header>
+ <section id="kitchenView" class="view kitchen-view">
+  <div class="kitchen-cover"></div>
+  <header class="kitchen-profile" id="kitchenProfile">
+   <div class="profile-line"><img class="avatar" src="/assets/avatar.jpg" alt="厨房头像"><div class="profile-title"><div><span class="level">Lv.6</span><h1 id="kitchenName">钟意媛媛</h1></div><p id="memberCount">共2人</p></div><button class="qr-button" id="inviteTop" aria-label="双人账号信息"><svg class="icon"><use href="#i-qr"/></svg></button></div>
+   <p class="announcement">公告：<span id="announcement">暂无</span></p>
+  </header>
+  <div class="menu-toolbar"><div class="toolbar-tabs"><button class="toolbar-tab selected" id="orderMode">点单</button><button class="toolbar-tab" id="editMode">修改</button></div><div class="toolbar-actions"><button class="outline small" id="addRecipe">添加菜谱</button><button class="search-pill" id="openSearch"><svg class="icon"><use href="#i-search"/></svg>搜索</button></div></div>
+  <div class="search-box" id="searchBox" hidden><svg class="icon"><use href="#i-search"/></svg><input id="searchInput" aria-label="搜索菜单" placeholder="搜搜今天想要什么" maxlength="60" autocomplete="off"><button id="closeSearch" aria-label="关闭搜索">取消</button></div>
+  <div class="catalog"><nav class="categories" id="categories" aria-label="菜单分类"></nav><div class="menu-list" id="menuList" tabindex="0" aria-label="菜谱列表"><div class="loading">正在打开你们的厨房…</div></div></div>
+  <div class="cart-bar" id="cartBar"><button class="cart-open" id="openCart" aria-label="打开购物车"><svg class="icon"><use href="#i-cart"/></svg><span id="cartBadge" class="cart-badge" hidden>0</span></button><button class="random-link" id="randomPick">随机选菜</button><button class="invite-button" id="inviteOrder">告诉另一半</button><button class="checkout-button" id="checkout" disabled>下单</button></div>
+ </section>
+ <section id="ordersView" class="view secondary-view" hidden><header class="page-heading"><span class="eyebrow">OUR LITTLE KITCHEN</span><h2>订单<span class="heading-dot">.</span></h2><p>每一份心意，都认真回应。</p></header><div class="order-filters" id="orderFilters"><button data-filter="all" class="active">全部</button><button data-filter="pending">待接单</button><button data-filter="accepted">制作中</button><button data-filter="completed">已完成</button></div><div id="orderList" class="order-list"></div></section>
+ <section id="discoverView" class="view secondary-view" hidden><header class="page-heading"><span class="eyebrow">A LITTLE MORE LOVE</span><h2>发现<span class="heading-dot">.</span></h2><p>把平凡的小事，也过得有趣一点。</p></header><div class="discover-body"><article class="daily-card"><span class="tiny-label">今天，也想和你一起</span><h3 id="dailyName">给彼此一个拥抱</h3><p>不用等特别的日子，现在就很好。</p><button class="dark-button" id="dailyAdd">把这份心意加入菜单单</button><svg class="icon"><use href="#i-heart"/></svg></article><h3 class="section-label">两个人的小日常</h3><div class="discover-grid" id="discoverGrid"></div><p class="quiet-note">这里是复刻版补齐的发现页，点一点就能加入点单。</p></div></section>
+ <section id="meView" class="view secondary-view" hidden><header class="page-heading"><span class="eyebrow">JUST THE TWO OF US</span><h2>我的厨房<span class="heading-dot">.</span></h2><p>只对你营业的小小御膳房。</p></header><div class="me-body"><div class="couple-card"><img src="/assets/avatar.jpg" alt="厨房头像"><div><strong id="meKitchenName">钟意媛媛</strong><p id="meMembers">我 · 另一半</p><span class="local-tag">双账号共享厨房</span></div></div><div class="stats-row"><div><strong id="statMenu">60</strong><span>份小心意</span></div><div><strong id="statOrders">0</strong><span>次心动点单</span></div><div><strong id="statDone">0</strong><span>份已完成</span></div></div><div class="settings-list"><button id="settingsButton">厨房设置<span>名称和公告　›</span></button><div class="account-profile">当前账号：<span id="roleLabel"></span></div><button id="passwordButton">修改我的密码<span>更新后需重新登录　›</span></button><button id="meInvite">双人账号信息<span>共享这个厨房　›</span></button><button id="exportButton">备份厨房数据<span>下载 JSON　↓</span></button><button id="aboutButton">关于这个复刻<span>参考与实现范围　›</span></button></div><p class="footer-love">一人下单 · 两人用餐 <span>♥</span></p></div></section>
+ <nav class="bottom-nav" aria-label="主导航"><button data-view="kitchen" class="active" aria-current="page"><svg class="icon"><use href="#i-chef"/></svg><span>厨房</span></button><button data-view="orders"><svg class="icon"><use href="#i-order"/></svg><span>订单</span><i id="orderDot" hidden></i></button><button data-view="discover"><svg class="icon"><use href="#i-compass"/></svg><span>发现</span></button><button data-view="me"><svg class="icon"><use href="#i-me"/></svg><span>我</span></button></nav>
+ <div class="home-indicator" aria-hidden="true"></div>
+ <div class="connection-banner" id="connectionBanner" role="status" hidden>暂时连不上厨房，正在重试…</div>
+ <div class="toast" id="toast" role="status" hidden></div>
+ <div class="modal-overlay" id="modalOverlay" hidden><section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"><div class="sheet-handle"></div><div class="sheet-heading"><h2 id="sheetTitle">你的点单</h2><button id="closeModal" aria-label="关闭弹窗"><svg class="icon"><use href="#i-close"/></svg></button></div><div id="sheetBody" class="sheet-body"></div></section></div>
+ <noscript><p>需要启用 JavaScript 才能使用情侣厨房。</p></noscript>
+</main>
+</body>
+</html>

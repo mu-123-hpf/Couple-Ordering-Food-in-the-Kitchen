@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+kitchen_app/data/
+out/
+.DS_Store
+Thumbs.db
